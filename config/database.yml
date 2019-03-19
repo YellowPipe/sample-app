@@ -84,4 +84,4 @@ production:
   <<: *default
   database: sample-app_production
   username: sample-app
-  password: <%= ENV['DEVCAMPPORTFOLIO_DATABASE_PASSWORD'] %>
+  password: <%= ENV['SAMPLE-APP_DATABASE_PASSWORD'] %>
